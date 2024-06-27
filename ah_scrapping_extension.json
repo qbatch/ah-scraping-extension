@@ -42,5 +42,18 @@
     "like to check on a few things before you log in",
     "It appears you may be using a browser that is out of date",
     "Robot or Human?"
-  ]
+  ],
+
+  "ah_main_xPaths": {
+    "detailPageAsin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
+    "itemSold": ["//span[contains(@id, 'social-proofing-faceout-title')]/span/text()"],
+    "itemBSR": ["//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]", "//span[contains(text(), 'Sellers Rank')]/parent::span/text()[2]"],
+    "itemCategory": [
+      "//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]",
+      "//span[contains(text(),  'Sellers Rank:')]/..",
+      "//div[contains(@id, '-subnav')]/a[1]",
+      "//div[contains(@id, 'wayfinding-breadcrumbs_feature')]//li[1]",
+      "//ul[@class = 'a-unordered-list a-horizontal a-size-small']/li[1]/span/a/text()"
+    ]
+  }
 }
