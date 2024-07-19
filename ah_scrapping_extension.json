@@ -43,7 +43,7 @@
     "It appears you may be using a browser that is out of date",
     "Robot or Human?"
   ],
-
+  "dataSRCKeys": ["data-src"],
   "ah_main_xPaths": {
     "detailPageAsin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
     "itemSold": ["//span[contains(@id, 'social-proofing-faceout-title')]/span/text()"],
