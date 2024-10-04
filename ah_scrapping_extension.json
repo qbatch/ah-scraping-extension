@@ -9,7 +9,6 @@
       "//a[@title='Next' or @title='next']",
       "//li[@class='pagination-next']/a",
       "//div[@class='show-more']//button[contains(text(),'More Results')]",
-      "(//ul[@class='pagination']/li)[last()-1]/a",
       "(//a[@class='pagination--item'])[last()]",
       "(//li[@class='active']/following-sibling::li)[1]/a",
       "(//a[@class='pagination-link'])[last()]",
