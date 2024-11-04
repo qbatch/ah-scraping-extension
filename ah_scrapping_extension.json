@@ -28,7 +28,8 @@
       "//a[@aria-label='Next']",
       "//link[@id='ctl00_RelNext']",
       "//a[@aria-label='Show more products']",
-      "//div[@class='show-more']//button[contains(text(),'More Results')]"
+      "//div[@class='show-more']//button[contains(text(),'More Results')]",
+      "//DIV[contains(@class,'kuPagination')]//A[contains(@class,'klevuPaginate') and contains(text(), '>') and not(contains(text(), '>>'))]"
     ]
   ],
   "captchaIdentifiers": [
