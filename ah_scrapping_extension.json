@@ -4,7 +4,7 @@
     ["//link[@rel='next']", "//a[@rel='next']"],
     [
       "//div[@class='pagination']//a[@class='next']",
-      "//a[contains(@title,'Next') or contains(@title,'next')]",
+      "//a[@title = 'Next' or contains(@title,'next')]",
       "//a[contains(@class,'pagination-next')]",
       "//a[@title='Next' or @title='next']",
       "//li[@class='pagination-next']/a",
