@@ -32,6 +32,7 @@
       "//DIV[contains(@class,'kuPagination')]//A[contains(@class,'klevuPaginate') and contains(text(), '>') and not(contains(text(), '>>'))]"
     ]
   ],
+  "rateLimitIdentifiers": ["Rate Limit"],
   "captchaIdentifiers": [
     "Page is not available in your region",
     "Please verify you are a human",
